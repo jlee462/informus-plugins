@@ -1,0 +1,14 @@
+{
+  "name": "informus-flow",
+  "displayName": "Informus Flow",
+  "version": "0.1.0",
+  "description": "Informus Flow in Claude: what's waiting on you, your priorities and work packages, capturing thoughts, and building from a package. Signs you in to Flow; runs on your own Claude plan.",
+  "author": { "name": "Informus", "url": "https://www.informus.ai" },
+  "homepage": "https://www.informus.ai/flow",
+  "mcpServers": {
+    "flow": {
+      "type": "http",
+      "url": "https://informus-flow.vercel.app/api/mcp"
+    }
+  }
+}
